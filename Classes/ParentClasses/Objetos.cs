@@ -5,7 +5,7 @@
         public string partNumber { get; set; }
         public string nome { get; set; }
         public string description { get; set; }
-        public string manufacter { get; set; }
+        public string manufacter { get; set; }  
         public double value { get; set; }
         public string supplier1 { get; set; }
         public string supplier2 { get; set; }
