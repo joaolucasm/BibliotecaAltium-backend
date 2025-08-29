@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Classes\RealClasses\NovaPasta\" />
     <Folder Include="Controllers\" />
   </ItemGroup>
 
