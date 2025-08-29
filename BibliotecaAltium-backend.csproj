@@ -17,8 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Classes\RealClasses\NovaPasta\" />
-    <Folder Include="Controllers\" />
+    <Folder Include="Classes\Footprint\" />
+    <Folder Include="Classes\Simbols\" />
   </ItemGroup>
 
 </Project>

@@ -12,12 +12,17 @@ namespace BibliotecaAltium_backend.Controllers
         [HttpPost("post")]
         public IActionResult Create([FromBody] JsonElement componenteJson)
         {
-            string tipo = componenteJson.GetProperty("tipo").GetString();
+            string? tipo = componenteJson.GetProperty("tipo").GetString();
+            if (string.IsNullOrEmpty(tipo))
+                return BadRequest("Campo 'tipo' é obrigatório.");
 
             switch (tipo)
             {
                 case "Bateria":
                     BateriasComponentes bateria = JsonSerializer.Deserialize<BateriasComponentes>(componenteJson);
+                    break;
+                case "Capacitor":
+                    CapacitoresComponentes capacitor = JsonSerializer.Deserialize<CapacitoresComponentes>(componenteJson);
                     break;
                 default:
                     return BadRequest("Tipo de componente invalido.");
