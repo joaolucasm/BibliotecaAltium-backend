@@ -1,6 +1,9 @@
-﻿namespace BibliotecaAltium_backend.Classes.RealClasses
+﻿using BibliotecaAltium_backend.Classes.ParentClasses;
+
+namespace BibliotecaAltium_backend.Classes.RealClasses
 {
-    public class MecanicosComponentes
+    public class MecanicosComponentes : ComponenteBase
+
     {
 
     }

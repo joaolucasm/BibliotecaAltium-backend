@@ -1,6 +1,8 @@
-﻿namespace BibliotecaAltium_backend.Classes.RealClasses
+﻿using BibliotecaAltium_backend.Classes.ParentClasses;
+
+namespace BibliotecaAltium_backend.Classes.RealClasses
 {
-    public class MOSFETsComponentes
+    public class MOSFETsComponentes : ComponenteBase
     {
         public string sub_tipo {  get; set; }
         public string canal {  get; set; }

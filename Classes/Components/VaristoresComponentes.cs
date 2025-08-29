@@ -2,7 +2,7 @@
 
 namespace BibliotecaAltium_backend.Classes.RealClasses
 {
-    public class VaristoresComponentes:Objetos
+    public class VaristoresComponentes: ComponenteBase
     {
         public string package { get; set; }
         public string simbolo { get; set; }
