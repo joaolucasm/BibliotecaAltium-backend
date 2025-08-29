@@ -2,7 +2,7 @@
 
 namespace BibliotecaAltium_backend.Classes.Components
 {
-    public class ConectoresComponentes : Objetos
+    public class ConectoresComponentes : ComponenteBase
     {
         public string montagem {  get; set; }
         public string colunas { get; set; }

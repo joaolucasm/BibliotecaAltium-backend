@@ -2,7 +2,7 @@
 
 namespace BibliotecaAltium_backend.Classes.Components
 {
-    public class DiodosSchottkyComponentes : Objetos
+    public class DiodosSchottkyComponentes : ComponenteBase
     {
         public string correnteDireta {  get; set; }
         public string tensaoQueda { get; set; }

@@ -2,7 +2,7 @@
 
 namespace BibliotecaAltium_backend.Classes.Components
 {
-    public class IndutoresComponentes : Objetos
+    public class IndutoresComponentes : ComponenteBase
     {
         public string simbolo {  get; set; }
         public string subTipo {  get; set; }

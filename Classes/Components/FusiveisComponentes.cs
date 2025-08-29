@@ -2,7 +2,7 @@
 
 namespace BibliotecaAltium_backend.Classes.Components
 {
-    public class FusiveisComponentes : Objetos
+    public class FusiveisComponentes : ComponenteBase
     {
         public string corrente {  get; set; }
         public string tensaoDC { get; set; }

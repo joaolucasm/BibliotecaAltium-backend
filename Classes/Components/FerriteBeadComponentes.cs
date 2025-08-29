@@ -2,7 +2,7 @@
 
 namespace BibliotecaAltium_backend.Classes.Components
 {
-    public class FerriteBeadComponentes : Objetos
+    public class FerriteBeadComponentes : ComponenteBase
     {
         public string correnteMax {  get; set; }
         public string impedancia { get; set; }

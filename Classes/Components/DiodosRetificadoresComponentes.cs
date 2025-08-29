@@ -2,7 +2,7 @@
 
 namespace BibliotecaAltium_backend.Classes.Components
 {
-    public class DiodosRetificadoresComponentes : Objetos
+    public class DiodosRetificadoresComponentes : ComponenteBase
     {
         public string montagem {  get; set; }
         public string correnteDireta { get; set; }

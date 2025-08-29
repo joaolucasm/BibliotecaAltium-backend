@@ -2,7 +2,7 @@
 
 namespace BibliotecaAltium_backend.Classes.Components
 {
-    public class DiodosTVSComponentes : Objetos
+    public class DiodosTVSComponentes : ComponenteBase
     {
         public string montagem {  get; set; }
         public string breakdownVoltage { get; set; }

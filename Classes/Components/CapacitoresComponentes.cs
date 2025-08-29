@@ -2,7 +2,7 @@
 
 namespace BibliotecaAltium_backend.Classes.Components
 {
-    public class CapacitoresComponentes : Objetos
+    public class CapacitoresComponentes : ComponenteBase
     {
         public string polarizacao {  get; set; }
         public string tensao { get; set; }

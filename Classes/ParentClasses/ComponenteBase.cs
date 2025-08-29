@@ -1,6 +1,6 @@
 ﻿namespace BibliotecaAltium_backend.Classes.ParentClasses
 {
-    public class Objetos
+    public class ComponenteBase
     {
         public string partNumber { get; set; }
         public string nome { get; set; }
@@ -13,8 +13,9 @@
         public string supplierPartNumber1 { get; set; }
         public string supplierPartNumber2 { get; set; }
         public string supplierPartNumber3 { get; set; }
+        public string tipo { get; set; } //Atributo para definição de componente
 
-        public Objetos() { }
+        public ComponenteBase() { }
 
 
     }

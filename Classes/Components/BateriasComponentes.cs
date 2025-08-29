@@ -2,7 +2,7 @@
 
 namespace BibliotecaAltium_backend.Classes.Components
 {
-    public class BateriasComponentes : Objetos
+    public class BateriasComponentes : ComponenteBase
     {
         public string tensao {  get; set; }
         public string package { get; set; }

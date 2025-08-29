@@ -2,7 +2,7 @@
 
 namespace BibliotecaAltium_backend.Classes.Components
 {
-    public class DiodosZenerComponentes : Objetos
+    public class DiodosZenerComponentes : ComponenteBase
     {
         public string montagem {  get; set; }
         public string simbolo { get; set; }

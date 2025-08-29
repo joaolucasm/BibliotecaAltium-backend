@@ -2,7 +2,7 @@
 
 namespace BibliotecaAltium_backend.Classes.Components
 {
-    public class FurosComponentes : Objetos
+    public class FurosComponentes : ComponenteBase
     {
         public string subTipo {  get; set; }
 
