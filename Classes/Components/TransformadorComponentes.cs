@@ -1,4 +1,4 @@
-﻿namespace BibliotecaAltium_backend.Classes.RealClasses
+﻿namespace BibliotecaAltium_backend.Classes.Components
 {
     public class TransformadorComponentes
     {
