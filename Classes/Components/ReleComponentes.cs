@@ -4,9 +4,10 @@ namespace BibliotecaAltium_backend.Classes.RealClasses
 {
     public class ReleComponentes : ComponenteBase
     {
-        public string corrent_max {  get; set; }
-        public string tensao_bobina { get; set; }
-        public string tensao_maxima { get; set; }
-
+        public string correnteMax {  get; set; }
+        public string tensaoMax { get; set; }
+        public string tensaoBobina { get; set; }
+        
+        public ReleComponentes() { }
     }
 }

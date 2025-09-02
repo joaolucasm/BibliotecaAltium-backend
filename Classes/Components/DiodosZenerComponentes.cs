@@ -4,9 +4,9 @@ namespace BibliotecaAltium_backend.Classes.Components
 {
     public class DiodosZenerComponentes : ComponenteBase
     {
+        public string package { get; set; }
         public string montagem {  get; set; }
         public string simbolo { get; set; }
-        public string package { get; set; }
         public string tensaoZener {  get; set; }
         public string toleranciaTensao { get; set; }
         public string correnteReversaMax {  get; set; }

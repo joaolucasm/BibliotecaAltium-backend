@@ -5,9 +5,9 @@ namespace BibliotecaAltium_backend.Classes.RealClasses
 {
     public class CristaisOsciladoresComponentes : ComponenteBase
     {
+        public string montagem { get; set; }
         public string capDeCarga {  get; set; }
-        public string montagem {  get; set; }
-
+        
         public CristaisOsciladoresComponentes() { }
     }
 }

@@ -4,6 +4,8 @@ namespace BibliotecaAltium_backend.Classes.RealClasses
 {
     public class PlacasComponentes : ComponenteBase
     {
-        public string sub_tipo {  get; set; }
+        public string subTipo {  get; set; }
+
+        public PlacasComponentes() { }
     }
 }

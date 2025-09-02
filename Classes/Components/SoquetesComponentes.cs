@@ -4,6 +4,7 @@ namespace BibliotecaAltium_backend.Classes.Components
 {
     public class SoquetesComponentes : ComponenteBase
     {
-        public string sub_tipo {  get; set; }
+        public string subTipo {  get; set; }
+        public SoquetesComponentes() { }
     }
 }
